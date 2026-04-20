@@ -11,7 +11,20 @@ FastAPI – Backend framework
 PostgreSQL – Database
 SQLAlchemy – ORM (Object Relational Mapping)
 Pydantic – Data validation
-##  System Flow (Step-by-Step)
+## Features
+- Submit new expense requests
+- View all expenses
+- Update or delete pending expenses
+- Approve or reject expenses (Manager role)
+- Track status (Pending / Approved / Rejected)
+- Proper validation and error handling
+##  Workflow
+1. Employee submits an expense  
+2. Expense status is set to **Pending**  
+3. Manager reviews the expense  
+4. Manager approves or rejects  
+5. Final status is updated in the system
+   ##  System Flow (Step-by-Step)
 ###  Step 1: User Interaction
 User (Employee) enters expense details in the frontend (Streamlit UI)
 ###  Step 2: Request Sent
@@ -44,22 +57,7 @@ Manager clicks Approve or Reject
 ###  Step 13: Status Update
 Backend updates status in database (Approved / Rejected)
 ###  Step 14: Final Output
-Updated status is shown in frontend
-
-## Features
-- Submit new expense requests
-- View all expenses
-- Update or delete pending expenses
-- Approve or reject expenses (Manager role)
-- Track status (Pending / Approved / Rejected)
-- Proper validation and error handling
-
-##  Workflow
-1. Employee submits an expense  
-2. Expense status is set to **Pending**  
-3. Manager reviews the expense  
-4. Manager approves or rejects  
-5. Final status is updated in the system  
+Updated status is shown in frontend 
 
 ##  API Endpoints
 
