@@ -94,7 +94,7 @@ Fields:
 - Built REST APIs using FastAPI  
 - Integrated PostgreSQL with SQLAlchemy  
 - Implemented real-world business logic  
-- Understood request-response lifecycle  
+- Understood request-response lifecycle 
 
 ##  Future Enhancements
 - Add authentication (JWT)
